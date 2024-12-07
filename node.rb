@@ -12,4 +12,8 @@ class Node
   def add_next(n)
     self.next = n
   end
+
+  def has_next?
+    !self.next.nil?
+  end
 end
