@@ -13,7 +13,7 @@ class Stack
   end
 
   def push(value)
-    new_node = Node.new(value, current_node)
+    new_node = Node.new(value, nil)
 
     self.current_node = new_node
   end
